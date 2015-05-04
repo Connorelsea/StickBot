@@ -37,21 +37,21 @@ public class StickBot
 	
 	public void run()
 	{
-//		click(new Point(990, 250));
-//		goHome();
+		click(new Point(990, 250));
+		goHome();
 		
 		while (running)
 		{
-//			doThis(x ->
-//			{
-//				work();
-//				goHome();
-//			}, 15);
-//			
-//			swole();
-//			goHome();
-//			intelligence();
-//			goHome();
+			doThis(x ->
+			{
+				work();
+				goHome();
+			}, 15);
+			
+			swole();
+			goHome();
+			intelligence();
+			goHome();
 			sleep();
 			
 			safetyCheck();
